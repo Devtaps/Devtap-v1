@@ -1,0 +1,98 @@
+/* 
+    Document   : devtapstyle
+    Created on : Mar 3, 2014, 7:25:21 PM
+    Author     : Furqan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Main Container That holds all objects in one boundary*/
+
+body{
+	background-color:#CCCCCC;
+}
+
+.devtap_container{
+    margin: 0 auto;
+    width: 950px;
+    min-height: 620px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 9px; /* CSS 3 property used to round the corners of div*/
+	font-family:verdana;
+}
+
+/* Header section that has logo and nav in this template case*/
+header{
+    width: 98%;
+    min-height: 40px;
+    text-align: left; 
+	margin:10px;
+	padding-top:5px;
+}
+#logo{
+    width: 250px;
+    height: 80px;
+    float: left;
+    font-size: 16px;
+    color: black;
+}
+header a:link {
+    text-decoration: none;
+}
+/* Navigation Style*/
+
+nav{
+	width:50%;
+	float:right;
+	text-align:left;
+}
+nav a:link{
+	color:#000000;
+	margin:10px;
+}
+nav a:hover{
+	color:#0000FF;
+	margin:10px;
+}
+
+.clearstyle{
+	clear:both;
+}
+
+/* boding content section hold article that is used to show data*/
+.bodycontent{
+	width:98%;
+	min-height:500px;
+	margin-bottom:10px;
+	background-color: #5A5A5A;
+	padding:10px;
+}
+
+.bodycontent article{
+    font-size: 14px;
+    color: white;
+	max-width:600px;
+	float:left;
+}
+.bodycontent article h3{
+    color: white;
+}
+.bodycontent aside{
+	background-color:#990000;
+	width: 300px;
+	padding:10px;
+	min-height: 500px;
+	float:right;
+	color:white;
+}
+/*	Footer hands all the content that are part of footer*/
+footer{
+	text-align: center;
+	width:98%;
+	min-height:50px;
+	padding:10px;
+	background-color:#666666;
+	color:#FFFFFF;
+	margin-bottom:10px;
+}
