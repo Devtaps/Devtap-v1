@@ -1,6 +1,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Devtap:: Developer Template Assistance Program</title>
     <link rel="stylesheet" type="text/css" href="css/devtapstyle.css">
+    <a href="index.php" class="generallink">Back</a>
 	        <!-- Choices-->
         <div id="choices" class="choicesstyle" >
             <div id="prebuild">
