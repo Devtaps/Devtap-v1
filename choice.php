@@ -4,14 +4,13 @@
 	        <!-- Choices-->
         <div id="choices" class="choicesstyle" >
             <div id="prebuild">
-                <img src="images/prebuild-template.jpg" alt="prebuild"/>
+                <a href="prebuild.php"><img src="images/prebuild-template.jpg" alt="prebuild"/></a>
                 <h4>Choose From Pre-build Designs</h4>
-                <a href="prebuild.php"><input id="choice" type="radio" name="choice" value="1" /></a>
+                
             </div>
             
             <div id="custombuild">
-                <img src="images/customize-template.png" alt="prebuild"/>
+                <a href="custombuild.php"><img src="images/customize-template.png" alt="prebuild"/></a>
                 <h4>Build a Customize Design</h4>
-                <a href="custombuild.php"><input id="choice" type="radio" name="choice" value="2"/></a>
             </div>
         </div>
